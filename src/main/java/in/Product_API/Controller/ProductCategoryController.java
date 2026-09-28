@@ -31,7 +31,7 @@ public class ProductCategoryController {
 				if(ProductCategory!=null && !ProductCategory.isEmpty())
 		{
 			response1.setStatus(200);
-			response1.setMessage("ProductCategory Details fetched successfully");
+			response1.setMessage("All ProductCategory Details fetched successfully");
 			response1.setData(ProductCategory);
 			
 			return new ResponseEntity<>(response1,HttpStatus.OK);
